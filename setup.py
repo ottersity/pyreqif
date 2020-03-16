@@ -42,7 +42,7 @@ setup(
     long_description = "\n".join(doclines[2:]),
     license = "BSD",
     platforms = ["any"],
-    install_requires = ["future", "oletools", "lxml", "xlsxwriter"],
+    install_requires = ["future", "oletools", "lxml", "xlsxwriter", "openpyxl", "image"],
 
     packages = find_packages("src"),
     package_dir = {"": "src"},
